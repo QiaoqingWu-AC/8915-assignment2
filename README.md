@@ -21,3 +21,36 @@ The Best Buy Application is a cloud-native, microservices-based solution for man
 4. The **Makeline-Service** consumes the order from the queue, processes it, and updates its status in the **MongoDB database**.
 5. Employees monitor and manage orders via the **Store-Admin** application.
 
+## Deployment Instructions
+**TO DO: Step-by-step instructions to deploy the application in a Kubernetes cluster."
+
+## Table of Microservice Repositories
+A table listing each microservice repository and its GitHub link.
+| Service             | Repository Link                                   |
+|----------------------|---------------------------------------------------|
+| Store-Front          | [GitHub Link](https://github.com/QiaoqingWu-AC/store-front-L8)          |
+| Store-Admin          | [GitHub Link](https://github.com/QiaoqingWu-AC/store-admin-L8)          |
+| Order-Service        | [GitHub Link](https://github.com/QiaoqingWu-AC/order-service-L8)        |
+| Product-Service      | [GitHub Link](https://github.com/QiaoqingWu-AC/product-service-L8)      |
+| Makeline-Service     | [GitHub Link](https://github.com/QiaoqingWu-AC/makeline-service-L8)     |
+| AI-Service           | [GitHub Link](https://github.com/QiaoqingWu-AC/ai-service-L8)           |
+| MongoDB              | [GitHub Link](https://github.com/QiaoqingWu-AC/mongodb-L8)              |
+| Virtual-Customer     | [GitHub Link](https://github.com/QiaoqingWu-AC/virtual-customer-L8)     |
+| Virtual-Worker       | [GitHub Link](https://github.com/QiaoqingWu-AC/virtual-worker-L8)       |
+
+## Table of Docker Images
+**TO DO: All docker images need to be created and updated here.**
+A table listing all Docker images you created, including their names and links to their Docker Hub repositories.
+| Service             | Docker Image Link                                           |
+|----------------------|------------------------------------------------------------|
+| Store-Front          | [Docker Hub Link](https://hub.docker.com/r/<your-username>/store-front)          |
+| Store-Admin          | [Docker Hub Link](https://hub.docker.com/r/<your-username>/store-admin)          |
+| Order-Service        | [Docker Hub Link](https://hub.docker.com/r/<your-username>/order-service)        |
+| Product-Service      | [Docker Hub Link](https://hub.docker.com/r/<your-username>/product-service)      |
+| Makeline-Service     | [Docker Hub Link](https://hub.docker.com/r/<your-username>/makeline-service)     |
+| AI-Service           | [Docker Hub Link](https://hub.docker.com/r/<your-username>/ai-service)           |
+| MongoDB              | [Docker Hub Link](https://hub.docker.com/r/<your-username>/mongodb)              |
+| Virtual-Customer     | [Docker Hub Link](https://hub.docker.com/r/<your-username>/virtual-customer)     |
+| Virtual-Worker       | [Docker Hub Link](https://hub.docker.com/r/<your-username>/virtual-worker)       |
+
+## Any Issues or Limitations in the implementation (Optional)
