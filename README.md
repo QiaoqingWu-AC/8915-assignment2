@@ -37,6 +37,7 @@ The Best Buy Application is a cloud-native, microservices-based solution for man
   - Node security channel type: `None`.
   - Security channel scheduler: `No schedule`.
   - Authentication and Authorization: `Local accounts with Kubernetes RBAC`.
+3. Create two node pools: `systemnodes` and `workernodes`.
 
 ## Table of Microservice Repositories
 A table listing each microservice repository and its GitHub link.
