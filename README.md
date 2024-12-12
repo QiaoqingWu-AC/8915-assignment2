@@ -22,7 +22,7 @@ The Best Buy Application is a cloud-native, microservices-based solution for man
 5. Employees monitor and manage orders via the **Store-Admin** application.
 
 ## Deployment Instructions
-**TO DO: Step-by-step instructions to deploy the application in a Kubernetes cluster."
+**TO DO: Step-by-step instructions to deploy the application in a Kubernetes cluster.**
 
 ## Table of Microservice Repositories
 A table listing each microservice repository and its GitHub link.
@@ -34,12 +34,12 @@ A table listing each microservice repository and its GitHub link.
 | Product-Service      | [GitHub Link](https://github.com/QiaoqingWu-AC/product-service-L8)      |
 | Makeline-Service     | [GitHub Link](https://github.com/QiaoqingWu-AC/makeline-service-L8)     |
 | AI-Service           | [GitHub Link](https://github.com/QiaoqingWu-AC/ai-service-L8)           |
-| MongoDB              | [GitHub Link](https://github.com/QiaoqingWu-AC/mongodb-L8)              |
+| MongoDB              | [GitHub Link](https://github.com/docker-library/mongo)              |
 | Virtual-Customer     | [GitHub Link](https://github.com/QiaoqingWu-AC/virtual-customer-L8)     |
 | Virtual-Worker       | [GitHub Link](https://github.com/QiaoqingWu-AC/virtual-worker-L8)       |
 
 ## Table of Docker Images
-**TO DO: All docker images need to be created and updated here.**
+**TO DO: All docker images need to be created and updated here.**<br>
 A table listing all Docker images you created, including their names and links to their Docker Hub repositories.
 | Service             | Docker Image Link                                           |
 |----------------------|------------------------------------------------------------|
@@ -49,7 +49,7 @@ A table listing all Docker images you created, including their names and links t
 | Product-Service      | [Docker Hub Link](https://hub.docker.com/r/<your-username>/product-service)      |
 | Makeline-Service     | [Docker Hub Link](https://hub.docker.com/r/<your-username>/makeline-service)     |
 | AI-Service           | [Docker Hub Link](https://hub.docker.com/r/<your-username>/ai-service)           |
-| MongoDB              | [Docker Hub Link](https://hub.docker.com/r/<your-username>/mongodb)              |
+| MongoDB              | [Docker Hub Link](https://hub.docker.com/_/mongo)              |
 | Virtual-Customer     | [Docker Hub Link](https://hub.docker.com/r/<your-username>/virtual-customer)     |
 | Virtual-Worker       | [Docker Hub Link](https://hub.docker.com/r/<your-username>/virtual-worker)       |
 
