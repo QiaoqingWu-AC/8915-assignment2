@@ -23,6 +23,20 @@ The Best Buy Application is a cloud-native, microservices-based solution for man
 
 ## Deployment Instructions
 **TO DO: Step-by-step instructions to deploy the application in a Kubernetes cluster.**
+### Step 1: Create Azure Kubernetes Cluster
+1. Go to Azure Portal and search for **Azure Kubernetes Cluster**, then click **Create**.
+2. In the Basics tap fill in the following details:
+  - Cluster preset configuration: Choose `Dev/Test`.
+  - Kubernetes cluster name: `AlgonquinPetStoreOnSteroidCluster`.
+  - Region: Same as your resource group (e.g., EAST US).
+  - Availability zones: `None`.
+  - AKS pricing tier: `Free`.
+  - Kubernetes version: `Default`.
+  - Automatic upgrade: `Disabled`.
+  - Automatic upgrade scheduler: `No schedule`.
+  - Node security channel type: `None`.
+  - Security channel scheduler: `No schedule`.
+  - Authentication and Authorization: `Local accounts with Kubernetes RBAC`.
 
 ## Table of Microservice Repositories
 A table listing each microservice repository and its GitHub link.
